@@ -1,0 +1,176 @@
+body{
+  margin:0;
+  font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  color: #262626;
+}
+/* nav start */
+nav {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #262626;
+}
+
+img{
+  width: 108px;
+}
+
+nav > div > ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+
+nav li{
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.bi-caret-down {
+  padding-top: 5px;
+  margin-left: 8px;
+}
+
+.bi-search{
+  margin-left: 8px;
+  font-size: 1.3em;
+}
+
+.bi-cart3{
+  margin-left: 8px;
+  font-size: 1.3em;
+}
+
+.bi-person-circle{
+  margin-left: 8px;
+  font-size: 2.3em;
+}
+
+/* nav end */
+
+/* carousel start */
+.img-carousel{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP5-1920x600.avif");
+}
+
+.text{
+  position: relative;
+  left: 220px;
+  top: 180px;
+  width: 43em;
+}
+
+.text > .title{
+  font-size: 2.8em;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.text > .content{
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.footer > button{
+  background-color: #0067b8;
+  color: white;
+  padding: 12px;
+  font-size: 1.1em;
+  font-weight: 600;
+  border-radius: 2px;
+  border: none;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+}
+
+.footer > a{
+  margin-left: 20px;
+  text-decoration: none;
+font-size: 1.2em;
+color: #262626;
+font-weight: 600;
+display: flex;
+align-items: center;
+}
+
+.bi-caret-right{
+  margin-left: 2px;
+}
+/* carousel end */
+/* section tripple start */
+.section-tripple{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 5rem 0;
+
+}
+
+.section-tripple > .tripple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.tripple > img{
+  width: 2.5rem;
+}
+
+.tripple > a{
+  color: #0067b8;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+/* section tripple end */
+
+/* section article start */
+.four{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.four > article{
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  height: 400px;
+}
+
+.four > article > img{
+  width: 290px;
+  height: 200px;
+}
+
+.four > article > h3{
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.four > article > p{
+  font-size: 1rem;
+  margin: 15px 0;
+}
+
+.four > article > a{
+  font-size: 1rem;
+    color: #0067b8;
+}
+/* section article end */
