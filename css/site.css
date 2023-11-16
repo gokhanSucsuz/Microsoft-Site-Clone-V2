@@ -104,7 +104,7 @@ nav>div:last-child>ul>li:last-child {
   margin-bottom: 25px;
 }
 
-.footer>button {
+button {
   background-color: #0067b8;
   color: white;
   padding: 12px;
@@ -114,7 +114,7 @@ nav>div:last-child>ul>li:last-child {
   border: none;
 }
 
-.footer>button:hover {
+button:hover {
   background-color: #006790;
   cursor: pointer;
 }
@@ -169,6 +169,13 @@ nav>div:last-child>ul>li:last-child {
 /* section tripple end */
 
 /* section article start */
+
+h1 {
+  font-size: 2rem;
+  width: 1200px;
+  margin: 10px auto;
+}
+
 .four {
   display: flex;
   justify-content: center;
@@ -182,7 +189,7 @@ nav>div:last-child>ul>li:last-child {
   display: flex;
   flex-direction: column;
   align-content: start;
-  height: 400px;
+  height: 500px;
 }
 
 .four>article>img {
@@ -206,3 +213,87 @@ nav>div:last-child>ul>li:last-child {
 }
 
 /* section article end */
+/* picture start */
+.picture {
+  width: 1200px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.picture>div {
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  top: 150px;
+}
+
+.picture h2 {
+  font-size: 2.2rem;
+}
+
+.picture p {
+  font-size: 1rem;
+}
+
+/* picture end */
+/* four second start */
+.icons {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0px auto;
+  font-size: 1rem;
+}
+
+.icons>ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.icons>ul>li>a>img {
+  width: 36px;
+  margin: 0 10px;
+}
+
+.icons a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  background-color: #000;
+  transition: .3s;
+}
+
+.icons a:hover::after {
+  width: 100%;
+}
+
+/* four second end */
+/* başa dön buton start */
+.basa-don {
+  display: flex;
+  justify-content: end;
+  margin: 20px 50px;
+}
+
+.button {
+  background-color: #0067b8;
+  color: white;
+  padding: 12px;
+  font-size: 1.1em;
+  font-weight: 600;
+  border-radius: 2px;
+  border: none;
+}
+
+.button:hover {
+  background-color: #006790;
+  cursor: pointer;
+}
+
+/* başa dön buton end */
