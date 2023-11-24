@@ -20,6 +20,23 @@ nav {
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 720px) {
+  nav>div>ul {
+    flex-direction: column !important;
+    background-color: aliceblue;
+    width: 300px;
+  }
+
+  nav {
+    align-items: center !important;
+  }
+
+  nav>div>ul>li {
+    background-color: aliceblue;
+  }
+}
+
+
 @media screen and (max-width: 1000px) {
   body {
     overflow-x: hidden;
